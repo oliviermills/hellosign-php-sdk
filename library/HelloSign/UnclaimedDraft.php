@@ -181,7 +181,7 @@ class UnclaimedDraft extends AbstractSignatureRequestWrapper
         )) + $this->request->toParams(array(
             'except' => array(
                 'title',
-        		'use_text_tags',
+        		//'use_text_tags',
         		'hide_text_tags'
             )
         ));
